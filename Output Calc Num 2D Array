@@ -1,0 +1,25 @@
+Enter three numbers for row 0 and 1 : 
+1
+2
+3
+
+Sum = 6
+Sum = 6
+4
+5
+6
+
+Sum = 15
+Sum = 21
+
+Row = 0 column = 0 is 1
+
+Row = 0 column = 1 is 2
+
+Row = 0 column = 2 is 3
+
+Row = 1 column = 0 is 4
+
+Row = 1 column = 1 is 5
+
+Row = 1 column = 2 is 6
