@@ -1,0 +1,28 @@
+Enter five numbers for row : 
+45
+82
+36
+75
+95
+
+
+The numbers in row 0 index 0 is 45
+The numbers in row 0 index 1 is 82
+The numbers in row 0 index 2 is 36
+The numbers in row 0 index 3 is 75
+The numbers in row 0 index 4 is 95
+
+
+Enter five numbers for column : 
+78
+90
+21
+36
+54
+
+
+The numbers in column 0 index 0 is 78
+The numbers in column 0 index 1 is 90
+The numbers in column 0 index 2 is 21
+The numbers in column 0 index 3 is 36
+The numbers in column 0 index 4 is 54
