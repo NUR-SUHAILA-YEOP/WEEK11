@@ -1,0 +1,26 @@
+Items are : index0 =0
+Items are : index1 =12
+Items are : index2 =5
+Items are : index3 =0
+Items are : index4 =7
+
+Enter sales per line :
+51200
+89633
+78560
+22585
+
+i = 0 y = 0
+Value for sales is : RM 51200
+
+i = 0 y = 1
+Value for sales is : RM 89633
+
+i = 1 y = 0
+Value for sales is : RM 78560
+
+i = 1 y = 1
+Value for sales is : RM 22585
+
+Sums is : RM 241978
+Average is : RM 120989
