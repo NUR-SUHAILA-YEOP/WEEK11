@@ -1,0 +1,48 @@
+package array;
+import java.util.Scanner;
+
+
+class Reverse_Order {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			String name0, name1, name2, name3, name4;
+			String[] name = new String[5];
+		    int item0, item1, item2, item3, item4;
+		    int[] item = new int[5];
+		    int[][] sales = new int[2][3]; 
+		    int sum, avg;
+		    
+		    Scanner input = new Scanner(System.in);
+		    
+		    item[2]=5; 
+		    item[4]= 7;
+		    item[1]=item[2] + item[4];
+
+		    for(int i=0; i<item.length; i++ ) //biasakan guna item.length
+		    	System.out.println("Items are : " + "index" + i + " =" +item[i]);
+		
+		
+		    sum=0; avg=0;
+		    System.out.println("\nEnter sales per line :");
+		    for(int i=0; i<sales.length; i++ ) //biasakan guna item.length
+		    	for(int y=0; y<sales.length; y++ ) {
+		    		sales [i][y] = input.nextInt();
+		    		sum= sum + sales[i][y];
+		    		avg=sum/sales.length;
+		    	}		
+		    
+		    //using 2D array
+		    for(int i=0; i<sales.length; i++ ) //biasakan guna item.length
+		    	for(int y=0; y<sales.length; y++ ) {
+			    	System.out.println("\ni = " + i + " y = " + y);
+		    		System.out.println("Value for sales is : RM " + sales[i][y]);
+		    	}
+		    		System.out.println("\nSums is : RM " + sum);
+		    		System.out.println("Average is : RM " + avg);
+	
+		}
+}
+	
+
+
