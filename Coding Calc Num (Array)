@@ -1,0 +1,31 @@
+package array;
+import java.util.Scanner;
+class Array_calc_int {
+
+	public static void main(String[] args) {
+		// calculate number enter by user using array
+		Scanner input = new Scanner(System.in);
+		
+		int[] item = new int[4];
+		int sum=0;
+		
+		//ask user to input num
+		System.out.println("Enter four integer per line");
+		
+		for( int i=0; i<item.length; i++) {  // looping to insert four num
+	    	item[i] = input.nextInt();
+	    	sum=sum+item[i];
+	    }	
+		
+		System.out.println("\n");
+		
+		for( int i=0; i<item.length; i++) {  // looping for print the index of the num
+			System.out.println("Items are : " + "index" + i + " =" +item[i]);
+		}
+		
+	    System.out.println("\nSum is :" +sum);
+	    System.out.println("Average is :" + (sum/item.length));
+
+	}
+
+}
