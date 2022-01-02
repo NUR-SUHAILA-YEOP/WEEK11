@@ -1,0 +1,14 @@
+Enter four integer per line
+45
+98
+35
+62
+
+
+Items are : index0 =45
+Items are : index1 =98
+Items are : index2 =35
+Items are : index3 =62
+
+Sum is :240
+Average is :60
