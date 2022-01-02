@@ -1,0 +1,26 @@
+package array;
+import java.util.Scanner;
+class Array_name {
+
+	public static void main(String[] args) {
+		// input 5 name in array 
+		//print the 5 name with index
+		Scanner input = new Scanner(System.in);
+		
+		String[] name = new String[5];
+		
+		System.out.println("Enter five customer's name per line : ");
+		 
+		for( int i=0; i<name.length; i++) {
+	    	name[i] = input.next();	
+	    }	
+		
+		System.out.println("\n");
+		
+		for( int i=0; i<name.length; i++) {
+			System.out.println("Index " + i + ", " + "name is : " +  name[i]);
+		}
+
+	}
+
+}
